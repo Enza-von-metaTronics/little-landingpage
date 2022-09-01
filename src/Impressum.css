@@ -1,0 +1,62 @@
+.impressumBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.impressumBox .datensch {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  width: 55vw;
+  border: 2px solid darkred;
+  padding: 2.2rem;
+  border-radius: 25px;
+}
+
+.impressumBox .datensch h4 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+}
+
+.impressumBox .datensch p {
+  margin: .7rem 0;
+  font-size: 1.3rem;
+}
+
+.impressumBox .datensch .breakPoint {
+  font-size: 2rem;
+  padding-bottom: .7rem;
+  color: rgba(238, 130, 238, 0.38);
+  text-align: center;
+}
+
+.impressumBox .datensch .ei {
+  padding: 1rem;
+}
+
+.impressumBox .datensch .paraphe {
+  width: 100px;
+}
+
+.impressumBox .contact {
+  margin-top: 1.7rem;
+  margin-bottom: 2.2rem;
+}
+
+.impressumBox .outroPic {
+  border: 1px solid #5f0606;
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=Impressum.css.map */

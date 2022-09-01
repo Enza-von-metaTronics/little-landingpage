@@ -1,0 +1,81 @@
+body {
+  background: #333;
+  color: #ccc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.App {
+  font-size: 1.5rem;
+  padding: 20px;
+  .introBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .App-logo {
+    width: 3rem;
+    height: 3rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.3rem;
+    font-weight:600;
+    margin: .5rem 0 20px 0;
+  }.font-effect-neon{
+    color: darkblue;
+  }
+  h1:not(:first-of-type) {
+    margin-top: 20px;
+  }
+  ul {
+    list-style-type: disc;
+    margin: 0 0 0 30px;
+  }
+  .page {
+    h2 {
+      font-size: 1.3rem;
+      color: #888;
+      font-weight: bold;
+      margin: 10px 0;
+      background-color: #eee;
+      padding: 5px;
+    }
+    .page_about {
+      h2 {
+        background-color: rgb(209, 209, 103);
+      }
+    }
+  }
+
+  nav {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      width: 70%;
+      margin: 0;
+      background: #111;
+      padding: 10px;
+      border-radius: 5px;
+      li {
+        margin: 0 10px 0 0;
+        list-style: none;
+        a {
+          color: #eee;
+          text-decoration: none;
+          font-size: 1.5rem;
+        }
+        a.active {
+          color: rgba(255, 153, 255, 0.96);
+        }
+      }
+    }
+  }
+}

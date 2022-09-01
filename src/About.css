@@ -1,0 +1,42 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.App .pageAbout {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .pageAbout .cv {
+  width: 80vw;
+  max-width: 970px;
+  height: auto;
+  margin-top: .8rem;
+}
+
+.App .pageAbout .enzaPic {
+  border-radius: 50%;
+  height: 4rem;
+  width: auto;
+  margin-top: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.App .pageAbout .footer {
+  height: 11vh;
+  width: auto;
+}
+/*# sourceMappingURL=About.css.map */

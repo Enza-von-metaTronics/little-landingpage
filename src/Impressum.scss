@@ -1,0 +1,45 @@
+.impressumBox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+.datensch{
+    margin: 0;
+    padding: 0;
+    h4{
+        font-size: 3.3rem;
+        font-weight: 500;
+        margin-bottom: 1.8rem;
+    }
+    p{
+        margin: .7rem 0;
+        font-size: 1.3rem;
+    }
+    font-size: 1.1rem;
+    width: 55vw;
+    border: 2px solid darkred;
+    padding: 2.2rem;
+    border-radius: 25px;
+    .breakPoint{
+        font-size: 2rem;
+        padding-bottom: .7rem;
+        color: rgba(238, 130, 238, 0.38);
+        text-align: center;
+      }
+    .ei{
+        padding: 1rem;
+    }
+    .paraphe{
+        width: 100px;
+    }
+}
+.contact{
+    margin-top: 1.7rem;
+    margin-bottom: 2.2rem;
+}
+.outroPic{
+    border: 1px solid rgb(95, 6, 6);
+    margin-bottom: 3rem;
+}
+}

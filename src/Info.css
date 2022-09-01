@@ -1,0 +1,50 @@
+.infoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infoBox .info {
+  margin-top: 1.3rem;
+  width: 70vw;
+  border: 1px solid rgba(238, 130, 238, 0.698);
+  padding: 1rem 1.8rem 1.5rem 1.8rem;
+  border-radius: 23px;
+}
+
+.infoBox .info h1 {
+  padding-left: 3rem;
+  font-weight: 100;
+}
+
+.infoBox .info p {
+  font-size: 1.9rem;
+  font-weight: 100;
+  padding-bottom: .9rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  margin: .7rem;
+}
+
+.infoBox .tut {
+  margin-top: 5rem;
+  padding: 3rem;
+  border: 1px solid rgba(238, 130, 238, 0.698);
+  border-radius: 50%;
+  background-color: rgba(102, 51, 153, 0.77);
+}
+
+.infoBox .tut:hover {
+  background-color: rgba(238, 130, 238, 0.698);
+}
+/*# sourceMappingURL=Info.css.map */

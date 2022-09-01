@@ -1,0 +1,19 @@
+
+.homeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+    padding: 0 1.8rem;
+    .banner{display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1{
+        font-weight: 100;
+      }
+      padding: 4.5rem;
+    }
+
+  } 

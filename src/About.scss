@@ -1,0 +1,28 @@
+.App{
+    margin: 0;
+    padding:0;
+.pageAbout{   
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .cv{
+        width: 80vw;
+        max-width: 970px;
+        height: auto;
+        margin-top: .8rem;
+    }
+    .enzaPic{
+        border-radius: 50%;
+        height: 4rem;
+        width: auto;
+        margin-top: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer{
+        height: 11vh;
+        width: auto;
+    }
+}}
