@@ -3,6 +3,34 @@
   padding: 0;
 }
 
+.App .aboutBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem;
+  width: 60vw;
+  border: 1px solid red;
+  border-radius: 13px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App .aboutBox .about h1 {
+  font-weight: 100;
+}
+
+.App .aboutBox .about p {
+  font-weight: 100;
+  margin: 1rem 0;
+}
+
 .App .pageAbout {
   width: 100vw;
   display: -webkit-box;

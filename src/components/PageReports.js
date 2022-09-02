@@ -21,6 +21,7 @@ export const PageReports = () => {
       <iframe width="560" height="315" src="https://www.youtube.com/embed/qX6muSoTTgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+
     <h1 className='myWorks'>my KIN</h1>
 
     <div className='sourceBox'>
@@ -29,7 +30,7 @@ export const PageReports = () => {
       <a className='source' href="http://www.maya.at/CD-ROM/Kin-Info/Kin-Info-Index.htm" target="_blank" rel="noopener noreferrer">source</a>
     </div>
 
-    <a href='https://musifiziert.de/nachgefragt-bei-enza/' target="_blank" rel="noopener noreferrer"><img src='./pics/musifiziert.jpg' /></a>
+
 
     <div className='ph'></div>
 
