@@ -30,9 +30,12 @@ export const PageReports = () => {
       <a className='source' href="http://www.maya.at/CD-ROM/Kin-Info/Kin-Info-Index.htm" target="_blank" rel="noopener noreferrer">source</a>
     </div>
 
-
-
     <div className='ph'></div>
+
+    <a href='https://quizzelenza.netlify.app/'  target="_blank" rel="noopener noreferrer" className='quiz'>
+      <img src="./pics/quizzelenza.jpg" alt='quiz' />
+    </a>
+
 
     <a href='/reports' className='butt'>
       <img src="./pics/homebutt-ros.png" alt='homebutton' />
