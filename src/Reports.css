@@ -96,11 +96,9 @@
   color: palevioletred;
 }
 
-.pageReports .butt {
-  padding: 5rem;
-}
-
-.pageReports .butt img {
-  width: 5rem;
+.pageReports .more {
+  text-align: center;
+  font-size: .9rem;
+  color: #f8c0ff;
 }
 /*# sourceMappingURL=Reports.css.map */
