@@ -40,10 +40,6 @@ export const PageReports = () => {
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Xtd7b4osedg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <a href='/reports' className='butt' target="_blank" rel="noopener noreferrer">
-      <img src="./pics/homebutt-ros.png" alt='homebutton' />
-    </a>
-
     </div>
   )
 }
