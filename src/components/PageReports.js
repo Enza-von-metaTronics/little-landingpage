@@ -42,6 +42,10 @@ export const PageReports = () => {
 
     <div className='ph'></div>
 
+<p>&#9829;</p>
+
+    <div className='ph'></div>
+
     </div>
   )
 }
