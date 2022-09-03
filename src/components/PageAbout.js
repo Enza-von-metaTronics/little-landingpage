@@ -20,6 +20,14 @@ export const PageAbout = () => {
       <img src="./pics/hinzeCV.jpg" className="cv" alt="enzas cv" />
       <img src="./pics/enza_blue150.jpg" className="enzaPic" alt="profil" />
       
+      <h1 className='myWorks'>my KIN</h1>
+
+<div className='sourceBox'>
+  <img src='./pics/Blatt255.png' alt='infoblatt tzolkin' />
+
+  <a className='source' href="http://www.maya.at/CD-ROM/Kin-Info/Kin-Info-Index.htm" target="_blank" rel="noopener noreferrer">source</a>
+</div>
+      
       <div className='footer'></div>
     </div>
     </div>

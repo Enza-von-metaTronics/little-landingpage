@@ -63,6 +63,33 @@
   margin-bottom: 1.5rem;
 }
 
+.App .pageAbout h1 {
+  font-weight: 100;
+}
+
+.App .pageAbout .sourceBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.App .pageAbout .sourceBox .source {
+  color: aquamarine;
+  padding-top: .5rem;
+  padding-bottom: 5rem;
+}
+
+.App .pageAbout .sourceBox .source:hover {
+  color: palevioletred;
+}
+
 .App .pageAbout .footer {
   height: 11vh;
   width: auto;

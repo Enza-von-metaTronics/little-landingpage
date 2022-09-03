@@ -42,21 +42,13 @@
     
         padding: .3rem;
      }}
-     .sourceBox{
-       display: flex;
-       flex-direction: column;
-       align-items: flex-end;
-     .source{
-       color: aquamarine;
-       padding-top: .5rem;
-       padding-bottom: 5rem;
-       }   .source:hover{
-          color: palevioletred;
-     }}
+
      .spiral{
         width: 300px;
-        height: auto;
+        height: auto; 
+     
      }
+
 .more{
     text-align: center;
     font-size: .9rem;

@@ -22,13 +22,7 @@ export const PageReports = () => {
     </div>
 
 
-    <h1 className='myWorks'>my KIN</h1>
 
-    <div className='sourceBox'>
-      <img src='./pics/Blatt255.png' alt='infoblatt tzolkin' />
-    
-      <a className='source' href="http://www.maya.at/CD-ROM/Kin-Info/Kin-Info-Index.htm" target="_blank" rel="noopener noreferrer">source</a>
-    </div>
 
     <div className='ph'></div>
 
