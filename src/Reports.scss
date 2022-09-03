@@ -47,6 +47,7 @@
         height: auto;
      }
      .spiral:hover{
+        cursor: crosshair;
         width: 350px;
         height: auto; 
         animation: perspect 11s infinite linear;

@@ -79,6 +79,7 @@
 }
 
 .pageReports .spiral:hover {
+  cursor: crosshair;
   width: 350px;
   height: auto;
   -webkit-animation: perspect 11s infinite linear;
