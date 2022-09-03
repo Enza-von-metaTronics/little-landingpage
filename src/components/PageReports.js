@@ -47,7 +47,7 @@ export const PageReports = () => {
     <div className='ph'></div>
 
 
-  <img className='spiral' src='./pics/spiral.jpg' alt='spiral' />
+  <img className='spiral' src='./pics/spiral.png' alt='spiral' />
 
     <div className='ph'></div>
 
