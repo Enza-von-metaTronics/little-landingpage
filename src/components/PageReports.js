@@ -46,6 +46,11 @@ export const PageReports = () => {
 
     <div className='ph'></div>
 
+
+  <img className='spiral' src='./pics/spiral.jpg' alt='spiral' />
+
+    <div className='ph'></div>
+
 <p className='more'>. . more to come . . .</p>
 
     <div className='ph'></div>

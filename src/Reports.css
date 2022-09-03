@@ -96,6 +96,11 @@
   color: palevioletred;
 }
 
+.pageReports .spiral {
+  width: 300px;
+  height: auto;
+}
+
 .pageReports .more {
   text-align: center;
   font-size: .9rem;
