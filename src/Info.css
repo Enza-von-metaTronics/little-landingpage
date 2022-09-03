@@ -56,7 +56,7 @@
   color: violet;
 }
 
-.infoBox .siteBox a {
+.infoBox .siteBox .link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,22 +71,22 @@
       -ms-flex-align: center;
           align-items: center;
   color: pink;
+  /* margin-top: 1.8rem; */
+}
+
+.infoBox .siteBox .link p {
   margin-top: 1.8rem;
 }
 
-.infoBox .siteBox a p {
-  margin-top: 1.8rem;
-}
-
-.infoBox .siteBox .tut {
-  margin-top: 5rem;
+.infoBox .siteBox .link .tut {
+  margin-top: 2rem;
   padding: 3rem;
   border: 1px solid rgba(238, 130, 238, 0.698);
   border-radius: 50%;
   background-color: rgba(102, 51, 153, 0.77);
 }
 
-.infoBox .siteBox .tut:hover {
+.infoBox .siteBox .link .tut:hover {
   background-color: rgba(238, 130, 238, 0.698);
 }
 

@@ -34,19 +34,18 @@
   display: flex;
   align-items:center;
   color: violet;
-  a{
+  .link{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: pink;
-    margin-top: 1.8rem;
+    /* margin-top: 1.8rem; */
     p{
       margin-top: 1.8rem;
-    }
-  }
- .tut{
-   margin-top: 5rem;
+    } 
+    .tut{
+   margin-top: 2rem;
    padding: 3rem;
    border: 1px solid rgba(238, 130, 238, 0.698);
    border-radius: 50%;
@@ -55,6 +54,8 @@
  .tut:hover{
    background-color: rgba(238, 130, 238, 0.698);
  }
+  }
+
 }
 }.ph{
  height: 11%;
