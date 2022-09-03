@@ -25,11 +25,11 @@
  p{
     font-weight: 100;
   }    
-  .point{
+/*   .point{
       color: pink;
       font-size: 2rem;
       margin-top: 3rem;
-    }
+    } */
  .siteBox{
   display: flex;
   align-items:center;
@@ -39,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: pink;
+    color: rgba(251, 173, 251, 0.698);
     /* margin-top: 1.8rem; */
     p{
       margin-top: 1.8rem;
@@ -54,7 +54,12 @@
  .tut:hover{
    background-color: rgba(238, 130, 238, 0.698);
  }
-  }
+ .klick{
+  color: rgba(251, 173, 251, 0.75);
+ }
+  }.klick:hover{
+  color: rgba(173, 251, 185, 0.75);
+ }
 
 }
 }.ph{

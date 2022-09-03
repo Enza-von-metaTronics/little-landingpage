@@ -12,6 +12,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /*   .point{
+      color: pink;
+      font-size: 2rem;
+      margin-top: 3rem;
+    } */
 }
 
 .infoBox .info {
@@ -40,12 +45,6 @@
   font-weight: 100;
 }
 
-.infoBox .point {
-  color: pink;
-  font-size: 2rem;
-  margin-top: 3rem;
-}
-
 .infoBox .siteBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,7 +69,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: pink;
+  color: rgba(251, 173, 251, 0.698);
   /* margin-top: 1.8rem; */
 }
 
@@ -88,6 +87,14 @@
 
 .infoBox .siteBox .link .tut:hover {
   background-color: rgba(238, 130, 238, 0.698);
+}
+
+.infoBox .siteBox .link .klick {
+  color: rgba(251, 173, 251, 0.75);
+}
+
+.infoBox .siteBox .klick:hover {
+  color: rgba(173, 251, 185, 0.75);
 }
 
 .ph {
