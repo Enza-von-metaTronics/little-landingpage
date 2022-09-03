@@ -90,8 +90,33 @@
   color: palevioletred;
 }
 
-.App .pageAbout .footer {
-  height: 11vh;
-  width: auto;
+.App .footer {
+  height: 200px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .footer .toTop {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 23px;
+  background-color: rgba(82, 233, 170, 0.537);
+  font-size: 1rem;
+  color: rgba(148, 11, 16, 0.913);
+}
+
+.App .footer .toTop:hover {
+  background-color: rgba(153, 32, 36, 0.351);
+  color: rgba(82, 233, 255, 0.628);
+  cursor: pointer;
 }
 /*# sourceMappingURL=About.css.map */

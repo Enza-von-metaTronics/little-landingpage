@@ -49,6 +49,12 @@ export const PageReports = () => {
 
     <div className='ph'></div>
 
+    <div className='footer'>
+        <a href='/reports'>
+          <button className='toTop'>to top</button>
+        </a>
+      </div>
+
     </div>
   )
 }

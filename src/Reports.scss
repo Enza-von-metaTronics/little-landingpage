@@ -42,11 +42,20 @@
     
         padding: .3rem;
      }}
-
      .spiral{
-        width: 300px;
+        width: 350px;
+        height: auto;
+     }
+     .spiral:hover{
+        width: 350px;
         height: auto; 
-     
+        animation: perspect 11s infinite linear;
+     } @keyframes perspect{
+        0%{transform: perspective(200px) rotateY(0deg) }
+        25%{transform: perspective(200px) rotateY(90deg) }
+        50%{transform: perspective(200px) rotateY(180deg) }
+        75%{transform: perspective(200px) rotateY(270deg) }
+        100%{transform: perspective(200px) rotateY(360deg) }
      }
 
 .more{
@@ -54,4 +63,24 @@
     font-size: .9rem;
     color: rgb(248, 192, 255);
 }
+}
+.footer{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .toTop{
+        border: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 23px;
+        background-color: rgba(82, 233, 170, 0.537);
+        font-size: 1rem;
+        color: rgba(148, 11, 16, 0.913);
+    }.toTop:hover{
+        background-color: rgba(153, 32, 36, 0.351);
+        color: rgba(82, 233, 255, 0.628);
+        cursor: pointer;
+    }
 }

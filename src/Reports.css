@@ -74,13 +74,96 @@
 }
 
 .pageReports .spiral {
-  width: 300px;
+  width: 350px;
   height: auto;
+}
+
+.pageReports .spiral:hover {
+  width: 350px;
+  height: auto;
+  -webkit-animation: perspect 11s infinite linear;
+          animation: perspect 11s infinite linear;
+}
+
+@-webkit-keyframes perspect {
+  0% {
+    -webkit-transform: perspective(200px) rotateY(0deg);
+            transform: perspective(200px) rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: perspective(200px) rotateY(90deg);
+            transform: perspective(200px) rotateY(90deg);
+  }
+  50% {
+    -webkit-transform: perspective(200px) rotateY(180deg);
+            transform: perspective(200px) rotateY(180deg);
+  }
+  75% {
+    -webkit-transform: perspective(200px) rotateY(270deg);
+            transform: perspective(200px) rotateY(270deg);
+  }
+  100% {
+    -webkit-transform: perspective(200px) rotateY(360deg);
+            transform: perspective(200px) rotateY(360deg);
+  }
+}
+
+@keyframes perspect {
+  0% {
+    -webkit-transform: perspective(200px) rotateY(0deg);
+            transform: perspective(200px) rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: perspective(200px) rotateY(90deg);
+            transform: perspective(200px) rotateY(90deg);
+  }
+  50% {
+    -webkit-transform: perspective(200px) rotateY(180deg);
+            transform: perspective(200px) rotateY(180deg);
+  }
+  75% {
+    -webkit-transform: perspective(200px) rotateY(270deg);
+            transform: perspective(200px) rotateY(270deg);
+  }
+  100% {
+    -webkit-transform: perspective(200px) rotateY(360deg);
+            transform: perspective(200px) rotateY(360deg);
+  }
 }
 
 .pageReports .more {
   text-align: center;
   font-size: .9rem;
   color: #f8c0ff;
+}
+
+.footer {
+  height: 200px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .toTop {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 23px;
+  background-color: rgba(82, 233, 170, 0.537);
+  font-size: 1rem;
+  color: rgba(148, 11, 16, 0.913);
+}
+
+.footer .toTop:hover {
+  background-color: rgba(153, 32, 36, 0.351);
+  color: rgba(82, 233, 255, 0.628);
+  cursor: pointer;
 }
 /*# sourceMappingURL=Reports.css.map */

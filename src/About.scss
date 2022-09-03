@@ -55,10 +55,28 @@
         padding-bottom: 5rem;
         }   .source:hover{
            color: palevioletred;
-      }}
-
-    .footer{
-        height: 11vh;
-        width: auto;
+      }
+    }} 
+    
+      .footer{
+        height: 200px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .toTop{
+            border: none;
+            width: 100px;
+            height: 40px;
+            border-radius: 23px;
+            background-color: rgba(82, 233, 170, 0.537);
+            font-size: 1rem;
+            color: rgba(148, 11, 16, 0.913);
+        }.toTop:hover{
+            background-color: rgba(153, 32, 36, 0.351);
+            color: rgba(82, 233, 255, 0.628);
+            cursor: pointer;
+        }
     }
-}}
+
+}

@@ -27,9 +27,14 @@ export const PageAbout = () => {
 
   <a className='source' href="http://www.maya.at/CD-ROM/Kin-Info/Kin-Info-Index.htm" target="_blank" rel="noopener noreferrer">source</a>
 </div>
-      
-      <div className='footer'></div>
     </div>
+    
+      <div className='footer'>
+        <a href='/about'>
+          <button className='toTop'>to top</button>
+        </a>
+      </div>
+
     </div>
   )
 }
