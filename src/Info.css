@@ -43,7 +43,7 @@
 .infoBox .point {
   color: pink;
   font-size: 2rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .infoBox .siteBox {
@@ -88,5 +88,9 @@
 
 .infoBox .siteBox .tut:hover {
   background-color: rgba(238, 130, 238, 0.698);
+}
+
+.ph {
+  height: 11%;
 }
 /*# sourceMappingURL=Info.css.map */

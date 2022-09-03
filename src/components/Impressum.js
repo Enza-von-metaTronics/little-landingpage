@@ -31,6 +31,11 @@ const Impressum = () => {
         <div className='outroPic'>
           <img src='./pics/pics_webdevel_02_500px.jpg' alt='webdevel snip'/>
         </div>
+
+       
+
+       
+
               </div>
   )
 }

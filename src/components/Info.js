@@ -13,16 +13,15 @@ export const Info = () => {
     
 
     <div className='siteBox'>
-      
-      
-      <a href='https://metatronics-wunderland.netlify.app/start.html' target="_blank" rel="noopener noreferrer">
-        
-      <img className='tut' src='./pics/tut.png' alt='tut' />
-      <p>&#10940; &#8226; klick here &#8226; &#10939;</p>
-      
+            
+      <a href='https://metatronics-wunderland.netlify.app/start.html' target="_blank" rel="noopener noreferrer">      
+        <img className='tut' src='./pics/tut.png' alt='tut' />
+        <p>&#10940; &#8226; klick here &#8226; &#10939;</p>    
       </a>
       
     </div>
+
+    <div className='ph'></div>
 
     </div>
   )
