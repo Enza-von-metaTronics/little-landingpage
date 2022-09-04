@@ -135,10 +135,10 @@
 .pageReports .more {
   text-align: center;
   font-size: .9rem;
-  color: #f8c0ff;
+  color: rgba(82, 233, 255, 0.628);
 }
 
-.footer {
+.pageReports .more .footer {
   height: 200px;
   width: 100vw;
   display: -webkit-box;
@@ -152,18 +152,20 @@
           align-items: center;
 }
 
-.footer .toTop {
-  border: none;
+.pageReports .more .footer .toTop {
   width: 100px;
   height: 40px;
   border-radius: 23px;
-  background-color: rgba(82, 233, 170, 0.537);
+  border: 2px solid rgba(67, 246, 171, 0.874);
+  background-color: rgba(11, 181, 110, 0.787);
   font-size: 1rem;
-  color: rgba(148, 11, 16, 0.913);
+  color: #770b0e;
+  font-weight: 800;
 }
 
-.footer .toTop:hover {
+.pageReports .more .footer .toTop:hover {
   background-color: rgba(153, 32, 36, 0.351);
+  border: 2px solid rgba(243, 64, 70, 0.896);
   color: rgba(82, 233, 255, 0.628);
   cursor: pointer;
 }
