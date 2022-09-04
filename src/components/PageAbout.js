@@ -30,7 +30,7 @@ export const PageAbout = () => {
     </div>
     
       <div className='footer'>
-        <a href='/about'>
+        <a href='https://enzas-little-landingpage.netlify.app'>
           <button className='toTop'>to top</button>
         </a>
       </div>
