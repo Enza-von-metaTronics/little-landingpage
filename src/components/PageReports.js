@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Reports.css';
 
+
+
 export const PageReports = () => {
   return (
     <div className='pageReports'>
@@ -40,12 +42,25 @@ export const PageReports = () => {
 
     <div className='ph'></div>
 
+    <div className='iframeBox'>
 
-  <img className='spiral' src='./pics/spiral.png' alt='spiral' />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sgHoVqC2HNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hQaBpozYYSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <div className='ph'></div>
+    
+    <a href src='./Spirale.js'>
+      <img className='spiral' src='./pics/spiral.png' alt='spiral' />
+    </a>
 
     <div className='ph'></div>
 
-<p className='more'>. . more to come . . .</p>
+
+
+{/* <p className='more'>. . more to come . . .</p> */}
 
     <div className='ph'></div>
 
