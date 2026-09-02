@@ -16,6 +16,12 @@
   padding: 0 1.8rem;
 }
 
+.baumtanzBanner {
+  width: 80%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
 .homeBox .banner {
   display: -webkit-box;
   display: -ms-flexbox;

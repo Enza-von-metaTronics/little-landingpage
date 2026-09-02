@@ -11,7 +11,7 @@ export const PageHome = () => {
 <img
   src="/pics/baumtanz_banner_1152.jpg"
   alt="Gespiegelter Wald mit poliTRON-Symbol"
-  style={{ width: "80%", height: "auto", marginBottom: "60px" }}
+  className="baumtanzBanner"
 />
   
       <video width="720px" height="auto" controls poster="../pics/vorschauPic.jpg">
