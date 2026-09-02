@@ -19,6 +19,23 @@ export const PageHome = () => {
       </video>
   
 <p style={{ marginTop: "70px" }}>Diese Website wird gerade lokal in Visual Studio Code weiterentwickelt.</p>
+
+<section className="paragrafopolisBox">
+  <h2>Das Drama von Paragrafopolis</h2>
+
+  <p>
+    Eine gesellschaftssatirische Fabel über ein Ergiergnu, das unbedingt
+    regieren lernen möchte.
+  </p>
+</section>
+
+<a
+  href="https://claudia-hinze-erzaehlwelten.claudi-enza.chatgpt.site/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Mehr über Paragrafopolis
+</a>
   
       <div className='banner'>
         <h1>come to LinkedIn:</h1>

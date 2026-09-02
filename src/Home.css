@@ -43,3 +43,16 @@
   font-weight: 100;
 }
 /*# sourceMappingURL=Home.css.map */
+
+.paragrafopolisBox {
+  width: 70%;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #242424;
+  border: 1px solid #627f72;
+  border-radius: 12px;
+}
+
+.paragrafopolisBox h2 {
+  color: #c3a765;
+}
