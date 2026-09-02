@@ -56,3 +56,18 @@
 .paragrafopolisBox h2 {
   color: #c3a765;
 }
+
+.paragrafopolisBox a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  color: white;
+  background-color: #627f72;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.paragrafopolisBox a:hover {
+  background-color: #c3a765;
+  color: #242424;
+}

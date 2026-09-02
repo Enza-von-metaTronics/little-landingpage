@@ -27,15 +27,16 @@ export const PageHome = () => {
     Eine gesellschaftssatirische Fabel über ein Ergiergnu, das unbedingt
     regieren lernen möchte.
   </p>
-</section>
 
-<a
-  href="https://claudia-hinze-erzaehlwelten.claudi-enza.chatgpt.site/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Mehr über Paragrafopolis
-</a>
+
+  <a
+    href="https://claudia-hinze-erzaehlwelten.claudi-enza.chatgpt.site/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Mehr über Paragrafopolis
+  </a>
+</section>
   
       <div className='banner'>
         <h1>come to LinkedIn:</h1>
