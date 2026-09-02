@@ -11,7 +11,7 @@ export const PageHome = () => {
       <video width="720px" height="auto" controls poster="../pics/vorschauPic.jpg">
        <source src="schoenheit.mp4" type="video/mp4" />
       </video>
-
+<p>Diese Website wird derzeit neu entdeckt und weiterentwickelt.</p>
       <div className='banner'>
         <h1>come to LinkedIn:</h1>
         <a href='https://www.linkedin.com/in/claudia-hinze-27656b180/' target="_blank" rel="noopener noreferrer">
