@@ -7,7 +7,13 @@ export const PageHome = () => {
   return (
 
     <div className='homeBox'>
-
+    
+<img
+  src="/pics/baumtanz_banner_1152.jpg"
+  alt="Gespiegelter Wald mit poliTRON-Symbol"
+  style={{ width: "80%", height: "auto" }}
+/>
+  
       <video width="720px" height="auto" controls poster="../pics/vorschauPic.jpg">
        <source src="schoenheit.mp4" type="video/mp4" />
       </video>
