@@ -18,7 +18,7 @@ export const PageHome = () => {
        <source src="schoenheit.mp4" type="video/mp4" />
       </video>
   
-<p style={{ marginTop: "70px" }}>Diese Website wird derzeit neu entdeckt und weiterentwickelt.</p>
+<p style={{ marginTop: "70px" }}>Diese Website wird gerade lokal in Visual Studio Code weiterentwickelt.</p>
   
       <div className='banner'>
         <h1>come to LinkedIn:</h1>
